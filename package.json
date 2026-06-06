@@ -1,0 +1,19 @@
+{
+  "name": "aws-bulk-mailer",
+  "version": "1.0.0",
+  "main": "aws-mailer.cjs",
+  "scripts": {
+    "start": "node aws-mailer.cjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.1063.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "nodemailer": "^6.10.1"
+  },
+  "description": "AWS SES Dedicated Bulk Mailer with Secure Login",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
