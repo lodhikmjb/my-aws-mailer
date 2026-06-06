@@ -1,16 +1,15 @@
-```json
-   {
-     "version": 2,
-     "builds": [
-       {
-         "src": "aws-mailer.cjs",
-         "use": "@vercel/node"
-       }
-     ],
-     "routes": [
-       {
-         "src": "/(.*)",
-         "dest": "aws-mailer.cjs"
-       }
-     ]
-   }
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "aws-mailer.cjs",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "aws-mailer.cjs"
+    }
+  ]
+}
