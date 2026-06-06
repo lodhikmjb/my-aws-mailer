@@ -4,7 +4,7 @@ services:
     runtime: node
     repo: https://github.com/lodhikmjb/my-aws-mailer
     plan: free
-    region: sin
+    region: singapore
     buildCommand: npm install
     startCommand: node aws-mailer.cjs
     envVars:
