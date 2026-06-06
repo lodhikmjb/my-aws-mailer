@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: aws-bulk-mailer-backend
+    runtime: node
+    repo: https://github.com/lodhikmjb/my-aws-mailer
+    plan: free
+    region: sin
+    buildCommand: npm install
+    startCommand: node aws-mailer.cjs
+    envVars:
+      - key: PORT
+        value: 5001
